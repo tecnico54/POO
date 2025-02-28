@@ -40,7 +40,7 @@ public class Vehiculo{
     public void girar_Derecha(){
         System.out.println("Vehiculo girando a la derecha");
     }
-    public void retroseder(){
+    public void retroceder(){
         System.out.println("Vehiculo retrosediendo");
     }
 }
