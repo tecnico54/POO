@@ -84,8 +84,8 @@ public class Parqueadero{
         }
     }
     // Mostrar los puestos del parqueadero
-    public static void mostrarPuestos() {
-        for (int i = 0; i < NUM_PUESTOS; i++) {
+    public static void mostrarPuestos(){
+        for (int i = 0; i < NUM_PUESTOS; i++){
             System.out.print("Puesto " + i + ": ");
             if (puestos[i]) {
                 System.out.println("Ocupado");
@@ -95,14 +95,13 @@ public class Parqueadero{
         }
     }
     // Calcular el cobro según el tiempo de estacionamiento
-    public static void calcularCobro(int tiempoEstacionamiento) {
+    public static void calcularCobro(int tiempoEstacionamiento){
         int costo = 0;
-
-        if (tiempoEstacionamiento <= 30) {
+        if (tiempoEstacionamiento <= 30){
             costo = 0; // Primeros 30 minutos son gratuitos
-        } else if (tiempoEstacionamiento <= 60) {
+        }else if (tiempoEstacionamiento <= 60){
             costo = 800; // Entre 31 y 60 minutos
-        } else {
+        }else {
             costo = 2000; // Más de 60 minutos
         }
         System.out.println("El costo por el tiempo de estacionamiento es: $" + costo);
