@@ -8,8 +8,6 @@ public class Cuenta{
         this.saldo = saldo;
     }
     public String toString(){
-        return "Cuenta { Nombre: " + numero +
-                " Tipo: " + tipo +
-                " Saldo: " + saldo + "}";
+        return "Cuenta { Nombre: " + numero + " Tipo: " + tipo + " Saldo: " + saldo + "}";
     }
 }
