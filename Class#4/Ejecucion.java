@@ -1,4 +1,4 @@
-public class Ejecutar{
+public class Ejecucion{
     public static void main(String[] args){
         //Vehiculo 1
         Vehiculo objVehiculo1 = new Vehiculo("Toyota", "Blanca", "TS3456WE", "150HP", 2.3, 4500.0);

@@ -1,7 +1,7 @@
-public class Cliente{
+public class Client{
     private long cedula;
     private String nombre;
-    public Cliente(long cedula, String nombre){
+    public Client(long cedula, String nombre){
         this.cedula = cedula;
         this.nombre = nombre;
     }
