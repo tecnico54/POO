@@ -8,7 +8,7 @@ public class Banco{
         this.direccion = direccion;
         this.cuenta = cuenta;
     }
-    public String consultarCliente(Client cliente){
+    public String consultarCliente(Cliente cliente){
         return cliente.toString();
     }
     public String toString(){
