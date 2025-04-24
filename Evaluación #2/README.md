@@ -9,6 +9,7 @@ Conceptos
 1. Herencia y Polimorfismo
 - Las clases “Camara” e “Impresion” heredan de “Producto”.
 - Cada una sobreescribe el método “getDescripcion()” para mostrar una descripción personalizada. Este es un ejemplo de polimorfismo.
+
 2. Composición y Agregación
 - “Pedido” tiene un atributo “Cliente” y un arreglo de “Producto[]”, esto es agregación, el cliente y productos existen independientemente del pedido.
 - “Impresion” contiene un arreglo de “Foto[]”, lo que representa composición, las fotos no existen sin la impresión.
@@ -20,10 +21,10 @@ Sin embargo si el sistema creciera o si necesitara que los usuarios agregaran pr
 
 Mejoras implementadas
 
-Encapsulamiento: Todos los atributos de las clases se mantienen "private". Se añadieron métodos "getters" y "setters" donde fue necesario.
+Encapsulamiento: Todos los atributos de las clases se mantienen "private". Se añadieron métodos "getters" y "setters" donde fue necesario.
 
 Validaciones básicas: Se implementaron validaciones en los constructores, por ejemplo: El "Cliente" no puede tener una cédula o nombre vacío y la "Foto" no se puede crear con un nombre de archivo vacío o nulo.
 
 Métodos utiles adicionales
 Se agregó el método "mostrarFotos()" en la clase "Impresion", que imprime todas las fotos asociadas.
-El método "toString()" de la clase "Pedido" ahora utiliza "SimpleDateFormat" para mostrar la fecha en formato legible.
+El método "toString()" de la clase "Pedido" ahora utiliza "SimpleDateFormat" para mostrar la fecha en formato legible.
